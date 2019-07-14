@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}  
+
+.container{
+   background-color:  #434343;
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+
+}
+
+
+
+.seccion1{
+    width:70%;
+    background-color: white;
+    position: relative;
+    top: 60px;
+    box-shadow: 2px 2px 10px #bababa;
+  
+}
+
+.titulo{ font-size:  35px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding: 20px;
+    margin-left: 26px;
+}
+
+
+
+.sub{
+    font-size: 12px;
+    color: grey;
+    text-align: left;
+    padding: 20px;
+    margin-left: 26px;
+}
+
+.google{ border: 1px solid grey;
+    width: 45%;
+    padding: 15px;
+   position: relative;
+   left:  -215px;
+
+}
+
+.google:hover{
+    box-shadow:  3px 3px 10px #bababa;
+}
+
+/* REVISAR ESTO ESTA MAL HECHO QUIERO QUE SEA CON RELATIVE CON FLOTE CON ALGO ASI  */
+.facebook{
+     border: 1px solid grey;
+        width: 45%;
+        padding: 15px;
+        position: relative;
+        left:  -215px;
+       
+}
+
+
+.facebook:hover{
+    box-shadow:  3px 3px 10px #bababa;
+}
+.twitter { border: 1px solid grey;
+    width: 45%;
+    padding: 15px;
+   position: relative;
+   left:  -215px;
+
+}
+.twitter:hover{
+    box-shadow:  3px 3px 10px #bababa;
+}
+
+.logo{
+   float: left;
+}
+
+.nombre{
+    font-size: 12px;
+    color: grey;
+    
+}
+
+.email{
+    border-top: 1px solid grey;
+
+}
+
+.email1{
+   float: left;
+    margin-left: 60px;
+    color: black;
+    font-size: 11px;
+}
+
+.email2{
+    float: left;
+    margin-left: 160px;
+    color:grey;
+    font-size: 9px;
+}
+
+.email2:hover{
+    color: black
+}
+
+.fondito{
+    height: 100% ;
+    position: absolute;
+    right:0px
+}
